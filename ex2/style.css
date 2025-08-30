@@ -4,3 +4,6 @@
 .background-color{
     background-color: #f6d050;
 }
+.custom-shadow{
+    box-shadow: 8px 8px 0 0 black;
+}
