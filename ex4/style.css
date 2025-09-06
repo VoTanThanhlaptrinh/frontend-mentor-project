@@ -1,0 +1,59 @@
+/* 1) Outfit (variable) cho body */
+@font-face {
+  font-family: "Outfit";
+  src: url("./assets/fonts/Outfit-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 2) Young Serif cho title */
+@font-face {
+  font-family: "YoungSerif";
+  src: url("./assets/fonts/YoungSerif-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Apply */
+body {
+  font-family: "Outfit", system-ui, sans-serif;
+}
+h1,
+h2 {
+  font-family: "YoungSerif", serif;
+}
+.bg-palette {
+  background-color: #f3e5d8 !important;
+}
+.text-palette {
+  color: #f3e5d8 !important;
+}
+.bg-purple {
+  background-color: #fff7fc !important;
+}
+.text-title {
+  color: #854d3b !important;
+}
+p,
+span {
+  color: #807c79 !important;
+}
+h3 {
+  color: #71314b !important;
+}
+li,
+h2 {
+  color: #7b472b !important;
+}
+h4 {
+  color: #6c635f !important;
+}
+.h4-color-text {
+  color: #6c635f !important;
+}
+.text-color {
+  color: #807c79 !important;
+}
+.h2-color-text {
+  color: #7b472b !important;
+}

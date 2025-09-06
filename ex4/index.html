@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body class="bg-palette">
+    <main class="w-full">
+      <div class="rounded-lg bg-white p-6 max-w-xl mt-[100px] mx-auto flex flex-col">
+        <img
+          src="./assets/images/image-omelette.jpeg"
+          alt="logo"
+          class="rounded-lg"
+        />
+        <h1 class="text-4xl mt-3 font-black">Simple Omelette Recipe</h1>
+        <p class="text-[13px] mt-3 font-semibold">
+          An easy and quick dish, perfect for any meal. This classic omelette
+          combines beaten eggs cooked to perfection, optionally filled with your
+          choice of cheese, vegetables, or meats.
+        </p>
+        <div class="bg-purple rounded-lg p-5 mt-3">
+          <h3 class="text-lg font-semibold">Preparation time</h3>
+          <ul class="list-disc list-outside pl-6 mt-2 text-sm">
+            <li class="list-item flex items-center">
+              <span class="font-semibold pl-4 h4-color-text">Total:</span>
+              <span>Approximately 10 minutes</span>
+            </li>
+            <li class="list-item flex items-center">
+              <span class="font-semibold pl-4 h4-color-text">Preparation:</span>
+              <span>5 minutes</span>
+            </li>
+            <li class="list-item flex items-center">
+              <span class="font-semibold pl-4 h4-color-text">Cooking:</span>
+              <span>5 minutes</span>
+            </li>
+          </ul>
+        </div>
+        <div class="mt-4">
+          <h2 class="text-2xl font-bold">Ingredients</h2>
+          <ul class="list-disc list-outside items-center p-4">
+            <li>
+              <span class="pl-4 font-medium text-xs">2-3 large eggs</span>
+            </li>
+            <li>
+              <span class="pl-4 font-medium text-xs">Salt, to taste</span>
+            </li>
+            <li>
+              <span class="pl-4 font-medium text-xs">Pepper, to taste</span>
+            </li>
+            <li>
+              <span class="pl-4 font-medium text-xs"
+                >1 tablespoon of butter or oil</span
+              >
+            </li>
+            <li>
+              <span class="pl-4 font-medium text-xs"
+                >Optional fillings: cheese, diced vegetables, cooked meats,
+                herbs</span
+              >
+            </li>
+          </ul>
+        </div>
+        <hr class="h-[1px] bg-gray-300 border-0" />
+        <h2 class="text-2xl font-bold mt-3">Instructions</h2>
+        <ol class="list-outside list-decimal p-4 gap-4">
+          <li class="pl-4">
+            <span class="h4-color-text font-bold text-sm">Beat the eggs:</span>
+            <span class="font-medium text-xs">
+              In a bowl, beat the eggs with a pinch of salt and pepper until
+              they are well mixed. You can add a tablespoon of water or milk for
+              a fluffier texture.</span
+            >
+          </li>
+          <li class="pl-4">
+            <span class="h4-color-text font-bold text-sm">Heat the pan:</span>
+            <span class="font-medium text-xs">
+              Place a non-stick frying pan over medium heat and add butter or
+              oil.</span
+            >
+          </li>
+          <li class="pl-4">
+            <span class="h4-color-text font-bold text-sm"
+              >Cook the omelette:</span
+            >
+            <span class="font-medium text-xs">
+              Once the butter is melted and bubbling, pour in the eggs. Tilt the
+              pan to ensure the eggs evenly coat the surface.</span
+            >
+          </li>
+          <li class="pl-4">
+            <span class="h4-color-text font-bold text-sm"
+              >Add fillings (optional):</span
+            >
+            <span class="font-medium text-xs">
+              When the eggs begin to set at the edges but are still slightly
+              runny in the middle, sprinkle your chosen fillings over one half
+              of the omelette.</span
+            >
+          </li>
+          <li class="pl-4">
+            <span class="h4-color-text font-bold text-sm">Fold and serve:</span>
+            <span class="font-medium text-xs">
+              As the omelette continues to cook, carefully lift one edge and
+              fold it over the fillings. Let it cook for another minute, then
+              slide it onto a plate.</span
+            >
+          </li>
+          <li class="pl-4">
+            <span class="h4-color-text font-bold text-sm">Enjoy:</span>
+            <span class="font-medium text-xs">
+              Serve hot, with additional salt and pepper if needed.</span
+            >
+          </li>
+        </ol>
+        <h2 class="text-2xl font-bold mt-3">Nutrition</h2>
+        <span class="text-xs mt-3 font-semibold"
+          >The table below shows nutritional values per serving without the
+          additional fillings.</span
+        >
+        <div class="grid grid-cols-2 items-center p-3 mt-3 text-sm">
+          <p class="font-semibold t">Calories</p>
+          <p class="h2-color-text font-semibold">277kcal</p>
+        </div>
+        <hr class="h-[1px] bg-gray-300 border-0" />
+        <div class="grid grid-cols-2 items-center p-3 text-sm">
+          <p class="font-semibold">Carbs</p>
+          <p class="h2-color-text font-semibold">0g</p>
+        </div>
+        <hr class="h-[1px] bg-gray-300 border-0" />
+        <div class="grid grid-cols-2 items-center p-3 text-sm">
+          <p class="font-semibold">Protein</p>
+          <p class="h2-color-text font-semibold">20g</p>
+        </div>
+        <hr class="h-[1px] bg-gray-300 border-0" />
+        <div class="grid grid-cols-2 items-center p-3 text-sm">
+          <p class="font-semibold">Fat</p>
+          <p class="h2-color-text font-semibold">22g</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
